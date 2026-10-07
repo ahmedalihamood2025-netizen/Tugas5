@@ -11,5 +11,6 @@ int main() {
         return 0;
     }
     double data[100];
+    double sum = 0.0;
 
 }
