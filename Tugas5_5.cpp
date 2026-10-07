@@ -13,4 +13,6 @@ long long nCr(int n, int r) {
     if (r <0 || r> n) {
         return -1;
     }
+
+    
 }
