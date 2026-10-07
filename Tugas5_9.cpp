@@ -12,6 +12,7 @@ long long fibonacci(int n) {
     long long b = 1;
 
     for (int i = 2; i<= n; i++) {
-        
+        long long next = a + b;
+        a = b;
     }
 }
