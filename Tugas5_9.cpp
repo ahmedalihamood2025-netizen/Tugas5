@@ -2,5 +2,7 @@
 using namespace std;
 
 long long fibonacci(int n) {
-    if 
+    if (n <= 0) {
+        
+    }
 }
