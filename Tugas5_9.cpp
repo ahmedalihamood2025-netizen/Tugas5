@@ -1,2 +1,4 @@
 #include <iostream>
-u
+using namespace std;
+
+l
