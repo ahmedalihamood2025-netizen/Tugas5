@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-iny main() {
+int main() {
     int prices[100];
 
     for (int i = 1; i<= 100; i++) {
