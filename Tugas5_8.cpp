@@ -24,5 +24,6 @@ int main() {
     }
     double standardDeviation = sqrt(sumSquaredDifference / n);
     cout << "\nMean = " << mean << endl;
+    cout << "Standard Deviation = " << standardDeviation << endl;
 
 }
