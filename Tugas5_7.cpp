@@ -30,4 +30,5 @@ int main() {
     }
 
     // count words containing "ng"
+    boo
 }
