@@ -18,6 +18,7 @@ int main() {
         sum += data [i];
     }
     double mean = sum / n;
+    double sumSquaredDifference = 0.0;
     
 
 }
