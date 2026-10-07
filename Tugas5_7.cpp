@@ -39,6 +39,7 @@ int main() {
                 insideword = true;
                 hasNG = false;
             }
+            if (i > 0 && tolower(sentence[i - 1]) == 'n' && ch == 'g') {}
         } 
       }
 }
