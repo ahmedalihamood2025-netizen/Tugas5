@@ -29,5 +29,5 @@ int main() {
         }
     }
 
-    // count wor
+    // count words contai
 }
