@@ -18,4 +18,35 @@ long long fibonacci(int n) {
     }
     return b;
 }
-boo
+bool isPrime(long long number) {
+    if (number < 2) {
+        return false;
+    }
+    for (long long i = 2; i * i <= number; i++) {
+        if (number % i == 0) {
+            return false;
+        }
+    }
+    return true;
+}
+int main() {
+    int n;
+    cout << "Enter n: ";
+    cin >> n;
+
+    if (n < 0) {
+        cout << "Invalid input. n must be non-negative." << endl;
+        return 0;
+    }
+
+    long long result = fibonacci(n);
+    cout << "Fibonacci(" << n << ") = " << result << endl;
+
+    if (isPrime(result)) {
+        cout << result << " is a prime number." << endl;
+    } else {
+        cout << result << " is not a prime number." << endl;
+    }
+
+    return 0;
+}
