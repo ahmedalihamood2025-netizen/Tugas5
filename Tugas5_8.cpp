@@ -15,6 +15,7 @@ int main() {
     cout << "Enter " << n << " values:" << endl;
     for (int i = 0; i < n; i++) {
         cin >> data[i];
+        sum += data [i];
     }
 
 }
