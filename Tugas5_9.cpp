@@ -9,4 +9,5 @@ long long fibonacci(int n) {
         return 1;
     }
     long long a = 0;
+    long long b = 1 ;
 }
