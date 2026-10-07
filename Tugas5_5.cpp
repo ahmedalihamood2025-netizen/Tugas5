@@ -30,4 +30,6 @@ int main() {
     } else {
         cout << "C(" << n <<  ", " << r << ") = " << nCr(n, r) << endl;
     }
+
+    return 0;
 }
