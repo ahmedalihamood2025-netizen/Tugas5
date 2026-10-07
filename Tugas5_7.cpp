@@ -21,5 +21,6 @@ int main() {
         if (ch == 'a' || ch == 'i' || ch == 'u' || ch == 'e' || ch == 'o') {
             vowels++;
         }
+        
     }
 }
