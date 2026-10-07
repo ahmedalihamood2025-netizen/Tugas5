@@ -28,6 +28,6 @@ int main() {
     if (r < 0 || r > n) {
         cout << "Invalid input. r must satisfy 0 <= r <= n." << endl;
     } else {
-        
+        cout << "C(" << n <<  ", " << r << ") = " << nCr(n, r) << endl;
     }
 }
