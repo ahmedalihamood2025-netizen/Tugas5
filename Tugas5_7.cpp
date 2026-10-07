@@ -18,6 +18,8 @@ int main() {
     // count vowels, consonants, and other characters
     for (int i = 0; i < length; i++) {
         char ch = tolower(sentence[i]);
-        if (ch == 'a' || ch == 'i' || ch == 'u' || ch == 'e' || ch == 'o') {}
+        if (ch == 'a' || ch == 'i' || ch == 'u' || ch == 'e' || ch == 'o') {
+            vowels++;
+        }
     }
 }
