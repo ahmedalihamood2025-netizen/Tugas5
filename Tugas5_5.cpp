@@ -14,5 +14,5 @@ long long nCr(int n, int r) {
         return -1;
     }
 
-    
+    return fact(n) / (fact(r) * fact(n - r));
 }
