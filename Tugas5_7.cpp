@@ -9,7 +9,7 @@ int main() {
     int vowels = 0;
     int consonants = 0;
     int otherCharacters = 0;
-    int wordswithNG = 0;
+    int wordsWithNG = 0;
 
     cout << "Enter a sentence: ";
     cin.getline(sentence, 201);
@@ -45,8 +45,20 @@ int main() {
         } 
         else {
             if (insideword) {
-                if (hasNG) {}
+                if (hasNG) {
+                    wordsWithNG++;
+                }
+                insideword = false;
             }
         }
       }
+      cout << "\nSentence Analysis" << endl;
+      cout << "Number of characters: " << length << endl;
+      cout << "Vowels: " << vowels << endl;
+      cout << "Consonants: " << consonants << endl;
+      cout << "Other characters: " << otherCharacters << endl;
+      cout << "Words containing \"ng\": " << wordsWithNG << endl;
+
+    return 0;
 }
+
