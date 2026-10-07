@@ -24,4 +24,8 @@ int main() {
     cin >> n;
     cout << " Enter r: ";
     cin >> r;
+
+    if (r < 0 || r > n) {
+        
+    }
 }
