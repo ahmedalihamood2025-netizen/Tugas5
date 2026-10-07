@@ -19,4 +19,6 @@ long long nCr(int n, int r) {
 
 int main() {
     int n, r;
+
+    cout << "Enter n: ";
 }
