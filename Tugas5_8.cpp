@@ -23,5 +23,6 @@ int main() {
         sumSquaredDifference += pow(data[i] - mean, 2);
     }
     double standardDeviation = sqrt(sumSquaredDifference / n);
+    cout << "\nMean = " << mean << endl;
 
 }
