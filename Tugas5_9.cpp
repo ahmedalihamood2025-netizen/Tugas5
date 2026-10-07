@@ -16,4 +16,5 @@ long long fibonacci(int n) {
         a = b;
         b = next;
     }
+    return b;
 }
