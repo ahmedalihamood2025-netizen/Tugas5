@@ -29,5 +29,5 @@ int main() {
         }
     }
 
-    // count words containing 
+    // count words containing "ng"
 }
