@@ -31,4 +31,6 @@ int main() {
 
     // count words containing "ng"
     bool insideword = false;
+    bool hasNG = false;
+    
 }
