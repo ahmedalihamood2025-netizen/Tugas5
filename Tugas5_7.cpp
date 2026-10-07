@@ -16,5 +16,7 @@ int main() {
 
     int length = strlen(sentence);
     // count vowels, consonants, and other characters
-    for (int i = 0; i < length; i++) {}
+    for (int i = 0; i < length; i++) {
+        char ch = tolower(sentence[i]);
+    }
 }
