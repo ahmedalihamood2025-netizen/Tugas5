@@ -10,4 +10,5 @@ int main() {
     int consonants = 0;
     int otherCharacters = 0;
     int wordswithNG = 0;
+    
 }
