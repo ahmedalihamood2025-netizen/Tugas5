@@ -8,3 +8,9 @@ long long fact(int n) {
 
     return 1LL * n * fact(n - 1);
 }
+
+long long nCr(int n, int r) {
+    if (r <0 || r> n) {
+        
+    }
+}
