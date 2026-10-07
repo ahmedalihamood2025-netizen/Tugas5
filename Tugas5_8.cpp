@@ -26,4 +26,5 @@ int main() {
     cout << "\nMean = " << mean << endl;
     cout << "Standard Deviation = " << standardDeviation << endl;
 
+    return 0;
 }
