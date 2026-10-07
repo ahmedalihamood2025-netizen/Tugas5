@@ -6,5 +6,7 @@ int main() {
     int n;
     cout << "Enter the numder of data: ";
     cin >> n;
-    if (n <=0) {}
+    if (n <=0) {
+        
+    }
 }
