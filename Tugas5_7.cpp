@@ -15,5 +15,5 @@ int main() {
     cin.getline(sentence, 201);
 
     int length = strlen(sentence);
-    // count vowels, consonants, and ot
+    // count vowels, consonants, and other ch
 }
