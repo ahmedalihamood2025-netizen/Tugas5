@@ -17,5 +17,6 @@ int main() {
         cin >> data[i];
         sum += data [i];
     }
+    
 
 }
