@@ -9,5 +9,5 @@ int main() {
     int vowels = 0;
     int consonants = 0;
     int otherCharacters = 0;
-    
+    int wordswithNG = 0;
 }
