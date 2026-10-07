@@ -45,7 +45,7 @@ int main() {
         } 
         else {
             if (insideword) {
-                
+                if (hasNG) {}
             }
         }
       }
