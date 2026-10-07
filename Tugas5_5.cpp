@@ -21,4 +21,5 @@ int main() {
     int n, r;
 
     cout << "Enter n: ";
+    cin >> n;
 }
