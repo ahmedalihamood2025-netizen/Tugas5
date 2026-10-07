@@ -37,6 +37,7 @@ int main() {
         if (ch >= 'a' && ch <= 'z') {
             if (!insideword) {
                 insideword = true;
+                hasNG = false;
             }
         } 
       }
