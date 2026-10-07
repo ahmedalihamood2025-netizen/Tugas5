@@ -17,6 +17,6 @@ int main() {
         cin >> data[i];
         sum += data [i];
     }
-    
+    double mean = sum / n;
 
 }
