@@ -35,7 +35,9 @@ int main() {
     for (int i = 0; i <= length; i++) {
         char ch = tolower(sentence[i]); 
         if (ch >= 'a' && ch <= 'z') {
-            if (!insideword) {}
+            if (!insideword) {
+                insideword = true;
+            }
         } 
       }
 }
