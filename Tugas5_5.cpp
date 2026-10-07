@@ -26,6 +26,6 @@ int main() {
     cin >> r;
 
     if (r < 0 || r > n) {
-        
+        cout << "Invalid input. r must satisfy 0 <= r <= n." << endl;
     }
 }
