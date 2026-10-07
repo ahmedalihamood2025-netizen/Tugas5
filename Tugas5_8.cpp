@@ -12,5 +12,6 @@ int main() {
     }
     double data[100];
     double sum = 0.0;
+    cout << "Enter " << n << " values:" << endl;
 
 }
