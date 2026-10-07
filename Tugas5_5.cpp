@@ -23,5 +23,5 @@ int main() {
     cout << "Enter n: ";
     cin >> n;
     cout << " Enter r: ";
-    cin
+    cin >> r;
 }
