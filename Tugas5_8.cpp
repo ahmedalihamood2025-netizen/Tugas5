@@ -8,5 +8,6 @@ int main() {
     cin >> n;
     if (n <=0) {
         cout << "Thr number of data must be greater than 0." << endl;
+        return 0;
     }
 }
