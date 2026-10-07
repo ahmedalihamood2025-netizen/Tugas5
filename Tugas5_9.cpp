@@ -14,5 +14,6 @@ long long fibonacci(int n) {
     for (int i = 2; i<= n; i++) {
         long long next = a + b;
         a = b;
+        b = next;
     }
 }
