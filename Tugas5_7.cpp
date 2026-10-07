@@ -24,6 +24,6 @@ int main() {
         else if (ch <= 'a' && ch <= 'z') {
             consonants++;
         }
-        
+        else {}
     }
 }
