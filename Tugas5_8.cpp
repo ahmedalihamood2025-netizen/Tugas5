@@ -20,7 +20,7 @@ int main() {
     double mean = sum / n;
     double sumSquaredDifference = 0.0;
     for (int i = 0; i < n; i++) {
-        
+        sumSquaredDifference += pow(data[i] - mean, 2);
     }
 
 }
