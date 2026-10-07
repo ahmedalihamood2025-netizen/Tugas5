@@ -68,4 +68,3 @@ int main() {
     cout << "Words containing \"ng\": " << wordsWithNG << endl;
 
     return 0;
-}
