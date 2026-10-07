@@ -13,5 +13,6 @@ int main() {
 
     cout << "Enter a sentence: ";
     cin.getline(sentence, 201);
-    
+
+    int length = strlen(sentence);
 }
