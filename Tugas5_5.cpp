@@ -6,5 +6,5 @@ long long fact(int n) {
         return 1;
     }
 
-    
+    return 1LL * n * fact(n - 1);
 }
