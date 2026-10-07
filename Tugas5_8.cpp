@@ -10,5 +10,6 @@ int main() {
         cout << "Thr number of data must be greater than 0." << endl;
         return 0;
     }
-    
+    double data[100];
+
 }
